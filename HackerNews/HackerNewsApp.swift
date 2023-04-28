@@ -2,7 +2,7 @@
 //  HackerNewsApp.swift
 //  HackerNews
 //
-//  Created by bjorn on 4/28/23.
+//  Created by Brandon Criss on 4/28/23.
 //
 
 import SwiftUI

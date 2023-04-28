@@ -2,20 +2,19 @@
 //  ContentView.swift
 //  HackerNews
 //
-//  Created by bjorn on 4/28/23.
+//  Created by Brandon Criss on 4/28/23.
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationView{
+            List(posts) { post in
+                Text(post.title)
+            }
+            .navigationTitle("Hacker News")
         }
-        .padding()
     }
 }
 
